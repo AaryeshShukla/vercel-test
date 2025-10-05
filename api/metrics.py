@@ -6,7 +6,7 @@ import json
 import numpy as np
 
 # Load telemetry data once
-with open("telemetry_data.json") as f:
+with open("q-vercel-latency") as f:
     telemetry = json.load(f)
 
 class RequestModel(BaseModel):
